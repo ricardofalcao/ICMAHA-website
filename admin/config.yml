@@ -22,5 +22,6 @@ collections:
         file: "pages/about.html"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
           - {label: "Description", name: "description", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
