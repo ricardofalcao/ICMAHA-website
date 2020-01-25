@@ -19,7 +19,7 @@ collections:
     files:
       - label: "About Page"
         name: "about"
-        file: "about.html"
+        file: "pages/about.html"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
           - {label: "Description", name: "description", widget: "markdown"}
