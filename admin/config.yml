@@ -23,5 +23,5 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
-          - {label: "Description", name: "description", widget: "markdown"}
+          - {label: "Description", name: "about_title", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
