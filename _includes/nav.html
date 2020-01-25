@@ -1,0 +1,46 @@
+<nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+  <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+    <div class="lg:hidden w-full flex flex-wrap items-center justify-between">
+      <span class="text-gray-100 uppercase text-xl">ICMAHA</span>
+
+      <button
+        style="background-color: rgba(0.0, 0.0, 0.0, 0.1);"
+        class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block outline-none focus:outline-none"
+        type="button" onclick="toggleNavbar('example-collapse-navbar')">
+        
+        <div class="opacity-100 flex items-center justify-center">
+          <i class="text-gray-100 fas fa-bars"></i>
+        </div>
+      </button>
+    </div>
+    
+    <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+      id="example-collapse-navbar">
+
+      <ul class="flex flex-col lg:flex-row list-none lg:ml-auto lg:mr-auto">
+        <li class="flex items-center px-4 py-5">
+          <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold tracking-wider"
+            href="#">About</a>
+        </li>
+
+        <li class="flex items-center px-4 py-5">
+          <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold"
+            href="#">Informations</a>
+        </li>
+
+        <li class="flex items-center px-4 py-5">
+          <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold"
+            href="#">Program</a>
+        </li>
+
+        <li class="flex items-center px-4 py-5">
+          <button
+            class="bg-white text-gray-800 active:bg-gray-100 text-sm font-bold uppercase px-3 py-2 rounded-sm shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+            type="button" style="transition: all 0.15s ease 0s;">
+            <i class="fas fa-pen"></i> &thinsp; Registration
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
