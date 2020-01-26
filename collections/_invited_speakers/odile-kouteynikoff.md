@@ -1,7 +1,7 @@
 ---
 name: Odile Kouteynikoff
 thumbnail: /data/uploads/kouteyO.jpg
-email: up201704042@fe.up.pt
+email: odkoutey@gmail.com
 university: 'University Paris-Diderot, France'
 ---
 
