@@ -1,6 +1,7 @@
 ---
 name: Wolfgang Sproessig
-email: up201704042@fe.up.pt
-university: University of Freiberg, Germany
-thumbnail: "/data/uploads/pato.png"
+thumbnail: /data/uploads/bild.png
+email: sproessig@math.tu-freiberg.de
+university: 'University of Freiberg, Germany'
 ---
+
