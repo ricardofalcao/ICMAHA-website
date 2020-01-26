@@ -13,7 +13,7 @@ url: 'https://infallible-mcnulty-105d01.netlify.com'
 markdown: kramdown
 plugins:
   - jekyll-postcss
-  - jekyll-purgecss
+  #- jekyll-purgecss
 css_dir: "assets/css"
 
 collections_dir: collections
