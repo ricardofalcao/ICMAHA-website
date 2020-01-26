@@ -1,6 +1,7 @@
 ---
 name: Gerhard Wanner
-email: up201704042@fe.up.pt
-university: University of Geneva, Switzerland
-thumbnail: "/data/uploads/piko.png"
+thumbnail: /data/uploads/index.jpg
+email: Gerhard.Wanner@unige.ch
+university: 'University of Geneva, Switzerland'
 ---
+
