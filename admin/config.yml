@@ -5,7 +5,7 @@ media_folder: "data/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "_posts/blog" # The path to the folder where the documents are stored
+    folder: "collections/_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -14,6 +14,35 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "invited_speakers" # Used in routes, e.g., /admin/collections/blog
+    label: "Invited Speakers" # Used in the UI
+    folder: "collections/_invited_speakers" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Photo", name: "thumbnail", widget: "image"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "University", name: "university", widget: "string"}
+  - name: "organizing_committee" # Used in routes, e.g., /admin/collections/blog
+    label: "Organizing Committee" # Used in the UI
+    folder: "collections/_organizing_committee" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Photo", name: "thumbnail", widget: "image"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "University", name: "university", widget: "string"}
+  - name: "important_dates" # Used in routes, e.g., /admin/collections/blog
+    label: "Important Dates" # Used in the UI
+    folder: "collections/_important_dates" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Description", name: "event_description", widget: "string"}
   - name: "pages"
     label: "Pages"
     files:
@@ -23,5 +52,5 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
-          - {label: "Description", name: "about_title", widget: "markdown"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Title", name: "about_title", widget: "string"}
+          - {label: "Description", name: "about_description", widget: "string"}

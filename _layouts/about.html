@@ -2,39 +2,195 @@
 layout: default
 ---
 
-<div class="bg-white mt-10 py-5 shadow">
-    <div class="container relative mx-auto">
-        <div class="w-full flex flex-wrap items-center justify-center">
-            <div class="md:w-5/12 mx-auto">
-                <img src="{{ "/assets/img/malonek.jpg" | relative_url }}" class="w-48 mx-auto rounded-sm shadow-md" />
-            </div>
-    
-            <div class="md:w-6/12 mx-auto">
-                <p class="text-gray-700 text-2xl text-center">
-                    {{ page.about_title }}
-                </p>
-    
-                <div class="w-full flex flex-wrap items-center justify-around mx-auto mt-5">
-                    <div class="">
-                        <div class="my-1">
-                            <i class="lni-calendar size-lg text-gray-400"></i>
+<section class="relative pb-24">
+    <div class="mt-10">
+        <div class="container relative mx-auto">
+            <div class="w-full flex flex-wrap items-start justify-center">
+                <div class="w-full md:w-4/12">
+                    <img src="{{ "/assets/img/malonek.jpg" | relative_url }}"
+                        class="w-64 mx-auto rounded-lg shadow-md" />
+                </div>
+
+                <div class="w-full md:w-6/12 px-4 py-4">
+                    <p class="text-gray-700 text-2xl font-bold spacing-wider">
+                        {{ page.about_title }}
+                    </p>
+                    <p class="text-gray-600 text-base mt-5 leading-relaxed">
+                        {{ page.about_description }}
+                    </p>
+
+                    <div class="w-full flex flex-wrap items-center justify-between mx-auto mt-5">
+                        <div class="">
+                            <div class="my-1">
+                                <i class="lni-calendar size-lg text-gray-400"></i>
+                            </div>
+                            <p class="font-bold text-gray-700">Event Starts</p>
+                            <p class="text-gray-500">Friday, September 11, 2020</p>
                         </div>
-                        <p class="font-bold text-gray-700">Event Starts</p>
-                        <p class="text-gray-500">Friday, September 11, 2020</p>
-                    </div>
-                    <div class="">
-                        <div class="my-1">
-                            <i class="lni-map size-lg text-gray-400"></i>
+                        <div class="mt-5 md:mt-0">
+                            <div class="my-1">
+                                <i class="lni-map size-lg text-gray-400"></i>
+                            </div>
+                            <p class="font-bold text-gray-700">Event Location</p>
+                            <p class="text-gray-500">University of Aveiro</p>
                         </div>
-                        <p class="font-bold text-gray-700">Event Location</p>
-                        <p class="text-gray-500">University of Aveiro</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="">
-    {{ content }}
-</div>
+<section class="relative bg-white pb-24">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0px);">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+            version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+            <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+    </div>
+
+    <div class="pt-10">
+        <div class="container relative mx-auto">
+            <div class="flex flex-wrap justify-center text-center mb-24">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h2 class="text-4xl font-semibold">Invited Speakers</h2>
+                    <p class="text-lg leading-relaxed m-4 text-gray-600">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eius ducimus voluptates fugiat,
+                        reprehenderit consequatur maxime sequi impedit obcaecati nulla in laudantium velit porro hic
+                        pariatur, aperiam magni! Ab, perspiciatis?
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center">
+                {% for invited_speaker in site.invited_speakers %}
+                <div class="w-full md:w-6/12 lg:w-4/12 mb-12 px-4">
+                    <div class="px-6">
+                        <img alt="..." src="{{ invited_speaker.thumbnail | relative_url }}"
+                            class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
+
+                        <div class="pt-6 text-center">
+                            <h5 class="text-xl font-bold">{{ invited_speaker.name }}</h5>
+                            <p class="text-xs text-gray-500">
+                                {{ invited_speaker.email }}
+                            </p>
+                            <p class="mt-2 text-sm text-gray-500 uppercase font-semibold">
+                                {{ invited_speaker.university }}
+                            </p>
+                            <div class="mt-1">
+                                <a href="mailto:{{ invited_speaker.email }}"
+                                    class="bg-gray-600 text-white rounded-full p-1 outline-none focus:outline-none mr-1 mb-1"
+                                    type="button">
+
+                                    <i class="lni-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="relative bg-gray-900 pb-24">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0px);">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+            version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+            <polygon class="text-gray-900 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+    </div>
+
+    <div class="pt-10">
+        <div class="container relative mx-auto">
+            <div class="flex flex-wrap justify-center text-center mb-24">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h2 class="text-4xl text-gray-200 font-semibold">Organizing Committee</h2>
+                    <p class="text-lg leading-relaxed m-4 text-gray-500">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eius ducimus voluptates fugiat,
+                        reprehenderit consequatur maxime sequi impedit obcaecati nulla in laudantium velit porro hic
+                        pariatur, aperiam magni! Ab, perspiciatis?
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center">
+                {% for organizing_committe in site.organizing_committee %}
+                <div class="w-full md:w-6/12 lg:w-3/12 mb-12 px-4">
+                    <div class="px-6">
+                        <img alt="..." src="{{ organizing_committe.thumbnail | relative_url }}"
+                            class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
+
+                        <div class="pt-6 text-center">
+                            <h5 class="text-xl font-bold text-gray-200">{{ organizing_committe.name }}</h5>
+                            <p class="text-xs text-gray-500">
+                                {{ organizing_committe.email }}
+                            </p>
+                            <p class="mt-2 text-sm text-gray-400 uppercase font-semibold">
+                                {{ organizing_committe.university }}
+                            </p>
+                            <div class="mt-1">
+                                <a href="mailto:{{ organizing_committe.email }}"
+                                    class="bg-gray-600 text-white p-1 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                                    type="button">
+                                    <i class="lni-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="relative bg-gray-200">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0px);">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+            version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+            <polygon class="text-gray-200 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+    </div>
+
+    <div class="pt-10">
+        <div class="container relative mx-auto">
+            <div class="flex flex-wrap justify-center text-center mb-24">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h2 class="text-4xl font-semibold">Important Dates</h2>
+                    <p class="text-lg leading-relaxed m-4 text-gray-600">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eius ducimus voluptates fugiat,
+                        reprehenderit consequatur maxime sequi impedit obcaecati nulla in laudantium velit porro hic
+                        pariatur, aperiam magni! Ab, perspiciatis?
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center">
+                {% for important_date in site.important_dates %}
+                <div class="w-full md:w-6/12 lg:w-3/12 mb-12 px-4">
+                    <div class="py-4 bg-white rounded-lg shadow-md">
+                        <div class="mx-auto text-center">
+                            <i class="lni-calendar size-lg"></i>
+                        </div>
+
+                        <div class="pt-2 px-4 text-center">
+                            <h5 class="text-xl font-bold">{{ important_date.name }}</h5>
+                            <p class="text-sm text-gray-500">
+                                {{ important_date.date | date: "%A, %B %-d, %Y"}}
+                            </p>
+                            <p class="text-base text-gray-600 mt-4">
+                                {{ important_date.event_description }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

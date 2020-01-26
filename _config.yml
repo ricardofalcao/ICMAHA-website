@@ -15,6 +15,15 @@ plugins:
   - jekyll-postcss
   - jekyll-purgecss
 
+collections_dir: collections
+collections:
+  invited_speakers:
+    people: true
+  organizing_committee:
+    people: true
+  important_dates:
+    people: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
