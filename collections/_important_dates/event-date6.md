@@ -1,8 +1,6 @@
 ---
-name: Event Day  ABC
-date: 2020-09-11T09:20:00.000Z
-event_description: >-
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ipsam numquam
-  sit iusto doloribus maxime.
+name: Deadline for abstrat submition
+date: 2020-07-01T09:20:00.000Z
+event_description: Submit your abstract
 ---
 
