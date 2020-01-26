@@ -1,4 +1,4 @@
 ---
-layout: l_default
+layout: default
 permalink: /
 ---
