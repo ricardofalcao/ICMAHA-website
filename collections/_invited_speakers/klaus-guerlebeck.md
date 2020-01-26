@@ -1,6 +1,7 @@
 ---
 name: Klaus Guerlebeck
-email: up201704042@fe.up.pt
-university: University of Weimar, Germany
-thumbnail: "/data/uploads/pato.png"
+thumbnail: /data/uploads/csm_Guerlebeck_nah_01_48c0e4f06f.jpg
+email: klaus.guerlebeck@uni-weimar.de
+university: 'University of Weimar, Germany'
 ---
+
