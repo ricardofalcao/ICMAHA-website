@@ -1,6 +1,7 @@
 ---
 name: Vladislav Kravchenko
-email: up201704042@fe.up.pt
-university: CINVESTAV, Mexico
-thumbnail: "/data/uploads/pato.png"
+thumbnail: /data/uploads/unnamed.jpg
+email: vkravchenko@math.cinvestav.edu.mx
+university: 'CINVESTAV, Mexico'
 ---
+
