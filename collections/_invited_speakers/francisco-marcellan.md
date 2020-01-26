@@ -1,6 +1,7 @@
 ---
 name: Francisco Marcellán
-email: up201704042@fe.up.pt
-university: University Carlos III of Madrid, Spain
-thumbnail: "/data/uploads/balu.png"
+thumbnail: /data/uploads/paco_marc.jpg
+email: pacomarc@ing.uc3m.es
+university: 'University Carlos III of Madrid, Spain'
 ---
+
