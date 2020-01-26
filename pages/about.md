@@ -10,5 +10,8 @@ about_description: >-
   mathematics including applications and related topics from hypercomplex
   analysis, function theory, approximation theory, combinatorics, numerical
   analysis and differential equations.
+dates_description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eius ducimus voluptates fugiat,
+reprehenderit consequatur maxime sequi impedit obcaecati nulla in laudantium velit porro hic
+pariatur, aperiam magni! Ab, perspiciatis?
 ---
 

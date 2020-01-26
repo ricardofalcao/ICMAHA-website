@@ -55,7 +55,8 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
           - {label: "Title", name: "about_title", widget: "string"}
-          - {label: "Description", name: "about_description", widget: "string"}
+          - {label: "About Description", name: "about_description", widget: "string"}
+          - {label: "Dates Description", name: "dates_description", widget: "string"}
       - label: "Info Page"
         name: "info"
         file: "pages/info.md"
