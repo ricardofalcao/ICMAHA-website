@@ -19,6 +19,7 @@ collections:
     folder: "collections/_invited_speakers" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: "name"
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Photo", name: "thumbnail", widget: "image"}
@@ -29,9 +30,9 @@ collections:
     folder: "collections/_organizing_committee" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: "name"
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Photo", name: "thumbnail", widget: "image"}
       - {label: "Email", name: "email", widget: "string"}
       - {label: "University", name: "university", widget: "string"}
   - name: "important_dates" # Used in routes, e.g., /admin/collections/blog
@@ -39,6 +40,7 @@ collections:
     folder: "collections/_important_dates" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: "name"
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
@@ -48,9 +50,35 @@ collections:
     files:
       - label: "About Page"
         name: "about"
-        file: "pages/about.html"
+        file: "pages/about.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
           - {label: "Title", name: "about_title", widget: "string"}
           - {label: "Description", name: "about_description", widget: "string"}
+      - label: "Info Page"
+        name: "info"
+        file: "pages/info.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "info"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/info/"}
+          - {label: "Venue Description", name: "venue_description", widget: "string"}
+          - {label: "Reach Description", name: "reach_description", widget: "string"}
+          - {label: "Accomodation Description", name: "accomodation_description", widget: "string"}
+          - {label: "Dinner Description", name: "dinner_description", widget: "string"}
+      - label: "Registration Page"
+        name: "registration"
+        file: "pages/registration.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "registration"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/registration/"}
+          - {label: "Fee Description", name: "fee_description", widget: "string"}
+          - {label: "Payment Description", name: "payment_description", widget: "string"}
+          - {label: "Registration Description", name: "registration_description", widget: "string"}
+      - label: "Program Page"
+        name: "program"
+        file: "pages/program.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "program"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/program/"}
+          - {label: "Program Description", name: "program_description", widget: "string"}
