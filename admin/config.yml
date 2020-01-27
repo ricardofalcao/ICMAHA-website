@@ -45,6 +45,16 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Description", name: "event_description", widget: "markdown"}
+  - name: "sponsors" # Used in routes, e.g., /admin/collections/blog
+    label: "Sponsors" # Used in the UI
+    folder: "collections/_sponsors" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: "name"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Logo", name: "logo", widget: "image"}
+      - {label: "Description", name: "description", widget: "string"}
   - name: "pages"
     label: "Pages"
     files:
