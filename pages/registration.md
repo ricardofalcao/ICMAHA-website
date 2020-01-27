@@ -17,7 +17,7 @@ fee_description: >-
   Accompanying person fee: **50 €**
 
 
-  <br/><br/>
+  <br/>
 
 
   **The fees includes** coffee breaks, lunches, dinner (?????)
