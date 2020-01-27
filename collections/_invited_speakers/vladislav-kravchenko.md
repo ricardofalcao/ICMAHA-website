@@ -1,7 +1,7 @@
 ---
 name: Vladislav Kravchenko
 thumbnail: /data/uploads/unnamed.jpg
-website: vkravchenko@math.cinvestav.edu.mx
+website: 'https://www.math.cinvestav.mx/en/vkravchenko'
 university: 'CINVESTAV, Mexico'
 ---
 
