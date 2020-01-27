@@ -13,7 +13,9 @@ venue_description: >-
   football fields. It is commonly known as a “city within the city” because that
   is exactly what it is – all the teaching and research infrastructures, central
   services and other supporting, cultural, sporting and leisure services are
-  concentrated in one single place. <br/>
+  concentrated in one single place. <br/><br/>
+
+
 
 
   ![](/data/uploads/campus.png "Santiago campus ")
