@@ -19,6 +19,34 @@ h3 {
     @apply text-lg;
 }
 
+/* */
+
+.submit-idle {
+    @apply bg-gray-900;
+}
+
+.submit-idle:hover {
+    @apply bg-gray-700;
+    @apply shadow-lg;
+}
+
+.submit-processing {
+    @apply bg-gray-700;
+    @apply cursor-not-allowed;
+}
+
+.submit-success {
+    @apply bg-green-500;
+    @apply cursor-not-allowed;
+}
+
+.submit-error {
+    @apply bg-red-500;
+    @apply cursor-not-allowed;
+}
+
+/* */
+
 .arrow-up {
     width: 0; 
     height: 0; 

@@ -29,4 +29,48 @@ var myNav = document.getElementById('example-navbar');
 window.onscroll = fadeNavbar;
 window.onhashchange = fadeNavbar;
 
+var myForm = document.getElementById('registration-form');
+myForm.onsubmit = function(event) {
+    event.preventDefault();
+
+    var formSubmitButton = document.getElementById('submit-button');
+    var formSubmitText = document.getElementById('submit-text');
+
+    formSubmitButton.classList.remove('submit-idle');
+    formSubmitButton.classList.add('submit-processing');
+    
+    formSubmitText.innerHTML = `<i class='lni-spinner lni-spin-effect'></i>`;
+
+    // collect the form data while iterating over the inputs
+    var data = {};
+    for (var i = 0, ii = myForm.length; i < ii; ++i) {
+        var input = myForm[i];
+        if (input.name) {
+            data[input.name] = input.value;
+        }
+    }
+
+    // construct an HTTP request
+    var xhr = new XMLHttpRequest();
+    xhr.open(myForm.method, myForm.action, true);
+    xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+
+    xhr.onreadystatechange = function() {
+        formSubmitButton.classList.remove('submit-processing');
+
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            if(xhr.status == 200) {
+                formSubmitButton.classList.add('submit-success');
+                formSubmitText.innerHTML = `Sucesso!`;
+            } else {
+                formSubmitButton.classList.add('submit-error');
+                formSubmitText.innerHTML = `Ocorreu um erro`;
+            }
+        }
+    }
+
+    // send the collected data as JSON
+    xhr.send(JSON.stringify(data));
+}
+
 fadeNavbar();

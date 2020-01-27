@@ -7,3 +7,4 @@ yarn.lock
 Gemfile.lock
 _includes/tailwind.js
 vendor
+.env
