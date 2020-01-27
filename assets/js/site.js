@@ -41,7 +41,7 @@ myForm.onsubmit = function(event) {
 
     // collect the form data while iterating over the inputs
     var data = {};
-    for (var i = 0, ii = myForm.length; i < ii; ++i) {
+    for (var i = 0; i < myForm.length; ++i) {
         var input = myForm[i];
         input.setAttribute("disabled", "");
 

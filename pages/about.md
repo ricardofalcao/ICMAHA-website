@@ -1,6 +1,6 @@
 ---
 layout: about
-permalink: /about/
+permalink: /
 about_title: Celebrating the 70th birthday of Helmuth Malonek
 about_description: >-
   A Conference on Mathematical Analysis, History and Applications, honoring

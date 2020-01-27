@@ -53,7 +53,7 @@ collections:
         file: "pages/about.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/"}
           - {label: "Title", name: "about_title", widget: "string"}
           - {label: "About Description", name: "about_description", widget: "markdown"}
           - {label: "Dates Description", name: "dates_description", widget: "markdown"}
