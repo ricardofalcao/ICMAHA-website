@@ -13,19 +13,23 @@ function hideDropdown(id) {
     x.classList.add("hidden");
 }
 
+var myNav = document.getElementById('example-navbar');
+var navbarLogo = document.getElementById('aveiro-logo');
+
 function fadeNavbar() { 
     "use strict";
     if (document.documentElement.scrollTop >= 50 ) {
         myNav.classList.add("lg:bg-gray-800");
         myNav.classList.remove("lg:bg-transparent");
+        navbarLogo.classList.add("hidden");
     } 
     else {
         myNav.classList.add("lg:bg-transparent");
         myNav.classList.remove("lg:bg-gray-800");
+        navbarLogo.classList.remove("hidden");
     }
 };
 
-var myNav = document.getElementById('example-navbar');
 window.onscroll = fadeNavbar;
 window.onhashchange = fadeNavbar;
 
