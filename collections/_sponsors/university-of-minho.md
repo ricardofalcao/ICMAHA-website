@@ -1,6 +1,6 @@
 ---
 name: University of Minho
-logo: /data/uploads/UM.png
+logo: /data/uploads/minho.png
 description: University of Minho
 ---
 
