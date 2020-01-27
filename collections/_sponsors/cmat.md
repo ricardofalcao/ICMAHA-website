@@ -1,6 +1,6 @@
 ---
 name: CMAT
-logo: /data/uploads/CMAT-h-n-white.png
+logo: /data/uploads/CMAT-UMINHO-11.png
 description: CMAT Description
 ---
 
