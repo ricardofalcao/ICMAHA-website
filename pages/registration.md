@@ -35,6 +35,10 @@ payment_description: |-
   **Bank name:** Caixa Geral de Depósitos 
 
   **Please, comment your transfer as ICMAHA**
+
+  **<br/><br/>**
+
+  **VERIFICAR DADOS**
 registration_description: >-
   **Please check** [Important
   Dates](https://blissful-cray-a24188.netlify.com/#important_dates)
