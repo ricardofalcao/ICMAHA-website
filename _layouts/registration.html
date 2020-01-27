@@ -8,9 +8,9 @@ layout: default
             <div class="flex flex-wrap justify-center text-center mb-24">
                 <div class="w-full lg:w-6/12 px-4">
                     <h2 class="text-4xl font-semibold">Fee</h2>
-                    <p class="text-lg leading-relaxed m-4 text-gray-600">
+                    <div class="text-lg leading-relaxed m-4 text-gray-600">
                         {{ page.fee_description | markdownify }}
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -31,9 +31,9 @@ layout: default
             <div class="flex flex-wrap justify-center text-center mb-24">
                 <div class="w-full lg:w-6/12 px-4">
                     <h2 class="text-4xl font-semibold">Payment</h2>
-                    <p class="text-lg leading-relaxed m-4 text-gray-600">
+                    <div class="text-lg leading-relaxed m-4 text-gray-600">
                         {{ page.payment_description | markdownify }}
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -51,12 +51,48 @@ layout: default
 
     <div class="pt-10">
         <div class="container relative mx-auto">
-            <div class="flex flex-wrap justify-center text-center mb-24">
+            <div class="flex flex-wrap justify-center text-center mb-12">
                 <div class="w-full lg:w-6/12 px-4">
                     <h2 class="text-4xl text-gray-200 font-semibold">Registration</h2>
-                    <p class="text-lg leading-relaxed m-4 text-gray-500">
+                    <div class="text-lg leading-relaxed m-4 text-gray-500">
                         {{ page.registration_description | markdownify }}
-                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center text-center mb-12">
+                <div class="w-full lg:w-6/12 px-4">
+                    <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+                        <form name="registration" class="p-5 lg:p-10" method="POST" data-netlify="true">
+                            <h4 class="text-2xl font-semibold">{{ page.registration_form_title }}</h4>
+                            <div class="leading-relaxed mt-1 mb-4 text-gray-600">
+                                {{ page.registration_form_description | markdownify }}
+                            </div>
+                            <div class="relative w-full mb-3 mt-8">
+                                <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="name">Full
+                                    Name</label><input type="text"
+                                    name="name"
+                                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                                    placeholder="Full Name" style="transition: all 0.15s ease 0s;" />
+                            </div>
+                            <div class="relative w-full mb-3">
+                                <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                                    for="email">Email</label><input type="email"
+                                    name="email"
+                                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                                    placeholder="Email" style="transition: all 0.15s ease 0s;" />
+                            </div>
+                            <div class="text-center mt-6">
+                              <button
+                                class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                                type="submit"
+                                style="transition: all 0.15s ease 0s;"
+                              >
+                                Send Request
+                              </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
