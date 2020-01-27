@@ -33,7 +33,7 @@ collections:
     identifier_field: "name"
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Website", name: "website", widget: "string"}
       - {label: "University", name: "university", widget: "string"}
   - name: "important_dates" # Used in routes, e.g., /admin/collections/blog
     label: "Important Dates" # Used in the UI
@@ -76,6 +76,9 @@ collections:
           - {label: "Fee Description", name: "fee_description", widget: "markdown"}
           - {label: "Payment Description", name: "payment_description", widget: "markdown"}
           - {label: "Registration Description", name: "registration_description", widget: "markdown"}
+          - {label: "Registration Form Title", name: "registration_form_title", widget: "string"}
+          - {label: "Registration Form Description", name: "registration_form_description", widget: "markdown"}
+          - {label: "Registration Form Abstract Description", name: "registration_form_abstract_description", widget: "markdown"}
       - label: "Program Page"
         name: "program"
         file: "pages/program.md"

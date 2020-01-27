@@ -24,5 +24,6 @@ payment_description: |-
 registration_description: fazer
 registration_form_title: Want to participate?
 registration_form_description: Complete this form and we will get back to you in 24 hours.
+registration_form_abstract_description: If you wish to give a short talk, please send us the title and a short abstract.
 ---
 

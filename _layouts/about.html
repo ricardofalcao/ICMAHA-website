@@ -72,15 +72,14 @@ layout: default
                             <p class="text-xs text-gray-500">
                                 {{ invited_speaker.email }}
                             </p>
-                            <p class="mt-2 text-sm text-gray-500 uppercase font-semibold">
+                            <div class="mt-2 text-sm text-gray-500 uppercase font-semibold">
                                 {{ invited_speaker.university }}
-                            </p>
+                            </div>
                             <div class="mt-1">
-                                <a href="mailto:{{ invited_speaker.email }}"
-                                    class="bg-gray-600 text-white rounded-full p-1 outline-none focus:outline-none mr-1 mb-1"
-                                    type="button">
-
-                                    <i class="lni-envelope"></i>
+                                <a href="{{ invited_speaker.website }}" class="flex justify-center items-center">
+                                    <div class="bg-gray-600 flex justify-center items-center w-10 h-10 mt-2 text-white rounded-full outline-none focus:outline-none">
+                                        <i class="lni-link size-sm"></i>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -125,9 +124,11 @@ layout: default
                             </p>
                             <div class="mt-1">
                                 <a href="mailto:{{ organizing_committe.email }}"
-                                    class="bg-gray-600 text-white p-1 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                                    type="button">
-                                    <i class="lni-envelope"></i>
+                                    class="flex justify-center items-center">
+
+                                    <div class="bg-gray-600 flex justify-center items-center w-8 h-8 mt-1 text-white rounded-full outline-none focus:outline-none">
+                                        <i class="lni-envelope"></i>
+                                    </div>
                                 </a>
                             </div>
                         </div>

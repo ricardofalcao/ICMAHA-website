@@ -12,18 +12,29 @@ exports.handler = async (event, context) => {
     }
 
     const data = JSON.parse(event.body);
-    if (!data.name || !data.email) {
-      return { statusCode: 422, body: 'Name and email are required.' }
+    if (!data.firstname || !data.lastname || !data.email || !data.affiliation) {
+      return { statusCode: 422, body: 'Name, email and affiliation are required.' }
+    }
+
+    let htmlText = `
+          <p><strong>Name:</strong> ${data.firstname} ${data.lastname}</p>
+          <p><strong>Email:</strong> ${data.email}</p>
+          <p><strong>Affiliation:</strong> ${data.affiliation}</p>
+    `;
+
+    if(data.title) {
+      htmlText += `<p><strong>Title: </strong> ${data.title}</p>`
+    }
+
+    if(data.abstract) {
+      htmlText += `<p><strong>Abstract: </strong> ${data.abstract}</p>`
     }
 
     const msg = {
       to: 'mif@math.uminho.pt',
       from: 'noreply@ricardofalcao.pt',
-      subject: `[ICMAHA] Registration - ${data.name}`,
-      html: `
-      <p><strong>Name: ${data.name}</strong></p>
-      <p><strong>Email: ${data.email}</strong></p>
-      `,
+      subject: `[ICMAHA] Registration - ${data.firstname} ${data.lastname}`,
+      html: htmlText,
     };
 
     const response = await sgMail.send(msg);

@@ -38,15 +38,15 @@ myForm.onsubmit = function(event) {
 
     formSubmitButton.classList.remove('submit-idle');
     formSubmitButton.classList.add('submit-processing');
-    
-    formSubmitText.innerHTML = `<i class='lni-spinner lni-spin-effect'></i>`;
 
     // collect the form data while iterating over the inputs
     var data = {};
     for (var i = 0, ii = myForm.length; i < ii; ++i) {
         var input = myForm[i];
+
         if (input.name) {
             data[input.name] = input.value;
+            input.setAttribute("disabled", "");
         }
     }
 
@@ -61,10 +61,10 @@ myForm.onsubmit = function(event) {
         if (xhr.readyState == XMLHttpRequest.DONE) {
             if(xhr.status == 200) {
                 formSubmitButton.classList.add('submit-success');
-                formSubmitText.innerHTML = `Sucesso!`;
+                formSubmitText.innerHTML = `Success!`;
             } else {
                 formSubmitButton.classList.add('submit-error');
-                formSubmitText.innerHTML = `Ocorreu um erro`;
+                formSubmitText.innerHTML = `An error occurred`;
             }
         }
     }
