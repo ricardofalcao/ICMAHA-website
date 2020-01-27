@@ -10,9 +10,9 @@ fee_description: |-
 payment_description: |-
   Please, transfer your conference fee into the following bank account:  
 
-  **Name:** Universidade de Aveiro; 
+  **Name:** Universidade de Aveiro
 
-  **Fiscal Identification Number:**  501 461 108;
+  **Fiscal Identification Number:**  501 461 108
 
   **IBAN:** PT50 0035 0836 00000022430 30 
 
