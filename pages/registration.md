@@ -15,6 +15,12 @@ fee_description: >-
 
 
   Accompanying person fee: **50 €**
+
+
+  <br/><br/>
+
+
+  **The fees includes** coffee breaks, lunches, dinner (?????)
 payment_description: |-
   Please, transfer your conference fee into the following bank account:  
 
@@ -32,10 +38,10 @@ payment_description: |-
 registration_description: >-
   **Please check** [Important
   Dates](https://blissful-cray-a24188.netlify.com/#important_dates)
-registration_form_title: ICMAHA Registration
-registration_form_description: Complete this form and we will get back to you in 24 hours.
+registration_form_title: ICMAHA Registration Form
+registration_form_description: Please complete all the required fields in the form below.
 registration_form_abstract_description: >-
-  If you wish to give a short talk, please send us the title and a short
-  abstract.
+  If you wish to give a short talk, enter the title and a short abstract
+  (formulas in LATEX code alowed)
 ---
 
