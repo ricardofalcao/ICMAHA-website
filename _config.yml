@@ -23,7 +23,9 @@ collections:
   organizing_committee:
     people: true
   important_dates:
-    people: true
+    people: false
+  sponsors:
+    people: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
