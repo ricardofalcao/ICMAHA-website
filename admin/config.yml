@@ -44,7 +44,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
-      - {label: "Description", name: "event_description", widget: "string"}
+      - {label: "Description", name: "event_description", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     files:
@@ -55,31 +55,31 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
           - {label: "Title", name: "about_title", widget: "string"}
-          - {label: "About Description", name: "about_description", widget: "string"}
-          - {label: "Dates Description", name: "dates_description", widget: "string"}
+          - {label: "About Description", name: "about_description", widget: "markdown"}
+          - {label: "Dates Description", name: "dates_description", widget: "markdown"}
       - label: "Info Page"
         name: "info"
         file: "pages/info.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "info"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/info/"}
-          - {label: "Venue Description", name: "venue_description", widget: "string"}
-          - {label: "Reach Description", name: "reach_description", widget: "string"}
-          - {label: "Accomodation Description", name: "accomodation_description", widget: "string"}
-          - {label: "Dinner Description", name: "dinner_description", widget: "string"}
+          - {label: "Venue Description", name: "venue_description", widget: "markdown"}
+          - {label: "Reach Description", name: "reach_description", widget: "markdown"}
+          - {label: "Accomodation Description", name: "accomodation_description", widget: "markdown"}
+          - {label: "Dinner Description", name: "dinner_description", widget: "markdown"}
       - label: "Registration Page"
         name: "registration"
         file: "pages/registration.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "registration"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/registration/"}
-          - {label: "Fee Description", name: "fee_description", widget: "string"}
-          - {label: "Payment Description", name: "payment_description", widget: "string"}
-          - {label: "Registration Description", name: "registration_description", widget: "string"}
+          - {label: "Fee Description", name: "fee_description", widget: "markdown"}
+          - {label: "Payment Description", name: "payment_description", widget: "markdown"}
+          - {label: "Registration Description", name: "registration_description", widget: "markdown"}
       - label: "Program Page"
         name: "program"
         file: "pages/program.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "program"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/program/"}
-          - {label: "Program Description", name: "program_description", widget: "string"}
+          - {label: "Program Description", name: "program_description", widget: "markdown"}

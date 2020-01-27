@@ -22,14 +22,60 @@ class="absolute lg:fixed top-0  z-50 w-full flex flex-wrap items-center justify-
       id="example-collapse-navbar">
 
       <ul class="flex flex-col lg:flex-row list-none lg:ml-auto lg:mr-auto">
-        <li class="flex items-center px-4 py-5">
+        <li 
+        onmouseover="showDropdown('about-dropdown')"
+        onmouseout="hideDropdown('about-dropdown')"
+        class="flex flex-col items-start justify-center px-4 py-5 ">
           <a class="mx-auto text-white hover:text-gray-300 px-3 py-4 lg:py-2 text-sm uppercase font-bold tracking-wider"
             href="{{ site.url }}/about">About</a>
-        </li>
 
-        <li class="flex items-center px-4 py-5">
+          <div id="about-dropdown" class="mx-auto relative hidden">
+            <div class="absolute mt-2 z-50 w-full flex flex-col items-center justify-center">
+              <div class="arrow-up">
+              </div>
+
+              <ul class="text-gray-300">
+                <li class="flex items-center">
+                  <a href="{{ site.url }}/about#invited_speakers" class="text-center text-gray-800 rounded-t-sm bg-white hover:bg-gray-300 w-48 py-3 shadow-md">Invited speakers</a>
+                </li>
+                <li class="flex items-center">
+                  <a href="{{ site.url }}/about#organizing_committee" class="text-center text-gray-800 bg-white hover:bg-gray-300 w-48 py-3 shadow-md">Organizing committee</a>
+                </li>
+                <li class="flex items-center">
+                  <a href="{{ site.url }}/about#important_dates" class="text-center text-gray-800 rounded-b-sm bg-white hover:bg-gray-300 w-48 py-3 shadow-md">Important Dates</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li 
+        onmouseover="showDropdown('info-dropdown')"
+        onmouseout="hideDropdown('info-dropdown')"
+        class="flex flex-col items-start justify-center px-4 py-5 ">
           <a class="mx-auto text-white hover:text-gray-300 px-3 py-4 lg:py-2 text-sm uppercase font-bold tracking-wider"
-                      href="{{ site.url }}/info">Informations</a>
+            href="{{ site.url }}/info">Informations</a>
+
+          <div id="info-dropdown" class="mx-auto relative hidden">
+            <div class="absolute mt-2 z-50 w-full flex flex-col items-center justify-center">
+              <div class="arrow-up">
+              </div>
+
+              <ul class="text-gray-300">
+                <li class="flex items-center">
+                  <a href="{{ site.url }}/info#venue" class="text-center text-gray-800 rounded-t-sm bg-white hover:bg-gray-300 w-48 py-3 shadow-md">Venue</a>
+                </li>
+                <li class="flex items-center">
+                  <a href="{{ site.url }}/info#how_to_reach_aveiro" class="text-center text-gray-800 bg-white hover:bg-gray-300 w-48 py-3 shadow-md">How to reach Aveiro</a>
+                </li>
+                <li class="flex items-center">
+                  <a href="{{ site.url }}/info#accomodation" class="text-center text-gray-800 bg-white hover:bg-gray-300 w-48 py-3 shadow-md">Accomodation</a>
+                </li>
+                <li class="flex items-center">
+                  <a href="{{ site.url }}/info#dinner" class="text-center text-gray-800 rounded-b-sm bg-white hover:bg-gray-300 w-48 py-3 shadow-md">Dinner</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
 
         <li class="flex items-center px-4 py-5">
