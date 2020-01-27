@@ -2,7 +2,8 @@
 layout: info
 permalink: /info/
 venue_description: >-
-  The conference will take place at Santiago campus, University of Aveiro. 
+  The conference will take place at Santiago campus, University of Aveiro,
+  PORTUGAL. <br/>
 
 
   **GPS Coordinates**: 40º 37′ 53” N 8º 39′ 27” W <br/><br/>
