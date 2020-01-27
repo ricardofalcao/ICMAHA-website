@@ -21,12 +21,12 @@ function fadeNavbar() {
     if (document.documentElement.scrollTop >= 50 ) {
         myNav.classList.add("lg:bg-gray-800");
         myNav.classList.remove("lg:bg-transparent");
-        navbarLogo.classList.add("hidden");
+        navbarLogo.classList.remove("lg:block");
     } 
     else {
         myNav.classList.add("lg:bg-transparent");
         myNav.classList.remove("lg:bg-gray-800");
-        navbarLogo.classList.remove("hidden");
+        navbarLogo.classList.add("lg:block");
     }
 };
 
