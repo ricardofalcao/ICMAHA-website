@@ -2,8 +2,8 @@
 layout: registration
 permalink: /registration/
 fee_description: >-
-  Regular early registration fee: 150 € Late registration: 250 €  Accompanying
-  person fee: 50 €
+  Regular early registration fee: 150 € Later registration fee: 250 € 
+  Accompanying person fee: 50 €
 payment_description: >-
   Please, transfer your conference fee into the following bank account:  Name:
   Universidade de Aveiro; Fiscal Identification Number:  501 461 108; IBAN: PT50
