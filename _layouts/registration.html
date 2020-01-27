@@ -6,9 +6,9 @@ layout: default
     <div class="mt-10">
         <div class="container relative mx-auto">
             <div class="flex flex-wrap justify-center text-center pb-24">
-                <div class="w-full lg:w-6/12 px-4">
+                <div class="w-full lg:w-10/12 px-4">
                     <h2 class="text-4xl font-semibold">Fee</h2>
-                    <div class="text-lg leading-relaxed m-4 text-gray-600">
+                    <div class="text-lg leading-relaxed m-4 text-gray-600 markdown">
                         {{ page.fee_description | markdownify }}
                     </div>
                 </div>
@@ -29,9 +29,9 @@ layout: default
     <div class="pt-10">
         <div class="container relative mx-auto">
             <div class="flex flex-wrap justify-center text-center pb-24">
-                <div class="w-full lg:w-6/12 px-4">
+                <div class="w-full lg:w-10/12 px-4">
                     <h2 class="text-4xl font-semibold">Payment</h2>
-                    <div class="text-lg leading-relaxed m-4 text-gray-600">
+                    <div class="text-lg leading-relaxed m-4 text-gray-600 markdown">
                         {{ page.payment_description | markdownify }}
                     </div>
                 </div>
@@ -52,22 +52,22 @@ layout: default
     <div class="pt-10">
         <div class="container relative mx-auto">
             <div class="flex flex-wrap justify-center text-center mb-12">
-                <div class="w-full lg:w-6/12 px-4">
+                <div class="w-full lg:w-10/12 px-4">
                     <h2 class="text-4xl text-gray-200 font-semibold">Registration</h2>
-                    <div class="text-lg leading-relaxed m-4 text-gray-500">
+                    <div class="text-lg leading-relaxed m-4 text-gray-500 markdown">
                         {{ page.registration_description | markdownify }}
                     </div>
                 </div>
             </div>
 
             <div class="flex flex-wrap justify-center text-center mb-12">
-                <div class="w-full lg:w-6/12 px-4">
+                <div class="w-full lg:w-10/12 px-4">
                     <div
                         class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
                         <form id="registration-form" class="p-5 lg:p-10" method="POST"
                             action="{{ "/.netlify/functions/send-registration-email" | relative_url }}">
                             <h4 class="text-2xl font-semibold">{{ page.registration_form_title }}</h4>
-                            <div class="leading-relaxed mt-1 mb-4 text-gray-600">
+                            <div class="leading-relaxed mt-1 mb-4 text-gray-600 markdown">
                                 {{ page.registration_form_description | markdownify }}
                             </div>
                             <div class="relative w-full mb-3 mt-8 flex justify-between items-center">
@@ -99,7 +99,7 @@ layout: default
                                     placeholder="Affiliation" style="transition: all 0.15s ease 0s;" />
                             </div>
 
-                            <div class="leading-relaxed mt-5 pt-5 mb-4 text-gray-600 border-gray-400"
+                            <div class="leading-relaxed mt-5 pt-5 mb-4 text-gray-600 border-gray-400 markdown"
                                 style="border-top-width: 1px;">
                                 {{ page.registration_form_abstract_description | markdownify }}
                             </div>
