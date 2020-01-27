@@ -10,18 +10,18 @@
     <div class="pt-2">
         <div class="container relative mx-auto">
             <div class="flex flex-wrap justify-center text-center">
-                <div class="w-full lg:w-6/12 px-4">
+                <div class="w-full lg:w-8/12 px-4">
                     <h2 class="text-4xl font-semibold text-gray-200">Sponsors</h2>
                 </div>
             </div>
 
-            <div class="mt-10 flex flex-wrap justify-between items-center py-10 px-4 w-5/12 mx-auto">
+            <div class="mt-10 flex flex-wrap justify-center items-center py-10 px-4 w-8/12 mx-auto">
                 {% for sponsor in site.sponsors %}
 
-                <div class="w-full md:w-4/12 lg:w-3/12" style="max-width: 140px;">
+                <div class="w-full md:w-6/12 lg:w-4/12">
                     <img title="{{ sponsor.description }}" alt="{{ sponsor.description }}" src="{{ sponsor.logo | relative_url }}"
-                    class="shadow w-full rounded-sm"/
-                    style="filter: grayscale(50%); filter: brightness(90%);">
+                    class="shadow h-full rounded-sm"/
+                    style="max-height: 80px; filter: grayscale(50%); filter: brightness(90%);">
                 </div>
 
                 {% endfor %}
