@@ -20,7 +20,7 @@ fee_description: >-
   <br/>
 
 
-  **The fees includes** coffee breaks, lunches, dinner (?????)
+  **The fee includes** coffee breaks, lunches, dinner (?????)
 payment_description: |-
   Please, transfer your conference fee into the following bank account:  
 
