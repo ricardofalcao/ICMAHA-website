@@ -13,10 +13,10 @@ layout: default
 
                 <div class="w-full md:w-6/12 px-4 pb-4">
                     <p class="text-gray-700 text-2xl font-bold spacing-wider">
-                        {{ page.about_title }}
+                        {{ page.about_title | markdownify }}
                     </p>
                     <p class="text-gray-600 text-base mt-5 leading-relaxed">
-                        {{ page.about_description }}
+                        {{ page.about_description | markdownify }}
                     </p>
 
                     <div class="w-full flex flex-wrap items-center justify-between mx-auto mt-5">
@@ -156,7 +156,7 @@ layout: default
                 <div class="w-full lg:w-6/12 px-4">
                     <h2 class="text-4xl font-semibold">Important Dates</h2>
                     <p class="text-lg leading-relaxed m-4 text-gray-600">
-                        {{ page.dates_description }}
+                        {{ page.dates_description | markdownify }}
                     </p>
                 </div>
             </div>
@@ -175,7 +175,7 @@ layout: default
                                 {{ important_date.date | date: "%A, %B %-d, %Y"}}
                             </p>
                             <p class="text-base text-gray-600 mt-4">
-                                {{ important_date.event_description }}
+                                {{ important_date.event_description | markdownify }}
                             </p>
                         </div>
                     </div>

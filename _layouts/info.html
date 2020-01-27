@@ -11,7 +11,7 @@ layout: default
                 <div class="w-full lg:w-6/12 px-4">
                     <h2 class="text-4xl font-semibold">Venue</h2>
                     <p class="text-lg leading-relaxed m-4 text-gray-600">
-                        {{ page.venue_description }}
+                        {{ page.venue_description | markdownify }}
                     </p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ layout: default
                 <div class="w-full lg:w-6/12 px-4">
                     <h2 class="text-4xl font-semibold">How to reach Aveiro</h2>
                     <p class="text-lg leading-relaxed m-4 text-gray-600">
-                        {{ page.reach_description }}
+                        {{ page.reach_description | markdownify }}
                     </p>
                 </div>
             </div>
@@ -61,7 +61,7 @@ layout: default
                 <div class="w-full lg:w-6/12 px-4">
                     <h2 class="text-4xl text-gray-200 font-semibold">Accomodation</h2>
                     <p class="text-lg leading-relaxed m-4 text-gray-500">
-                        {{ page.accomodation_description }}
+                        {{ page.accomodation_description | markdownify }}
                     </p>
                 </div>
             </div>
@@ -86,7 +86,7 @@ layout: default
                 <div class="w-full lg:w-6/12 px-4">
                     <h2 class="text-4xl font-semibold">Dinner</h2>
                     <p class="text-lg leading-relaxed m-4 text-gray-600">
-                        {{ page.dinner_description }}
+                        {{ page.dinner_description | markdownify }}
                     </p>
                 </div>
             </div>
