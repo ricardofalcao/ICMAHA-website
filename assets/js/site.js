@@ -73,4 +73,5 @@ myForm.onsubmit = function(event) {
     xhr.send(JSON.stringify(data));
 }
 
+console.log(document.documentElement.scrollTop);
 fadeNavbar();
