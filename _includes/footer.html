@@ -7,7 +7,7 @@
         </svg>
     </div>
 
-    <div class="pt-2">
+    <div class="pt-6">
         <div class="container relative mx-auto">
             <div class="flex flex-wrap justify-center text-center">
                 <div class="w-full lg:w-8/12 px-4">
@@ -15,13 +15,13 @@
                 </div>
             </div>
 
-            <div class="mt-10 flex flex-wrap justify-center items-center py-10 px-4 w-8/12 mx-auto">
+            <div class="flex flex-wrap justify-center items-center pt-5 pb-10 px-4 w-8/12 mx-auto">
                 {% for sponsor in site.sponsors %}
 
-                <div class="w-full md:w-6/12 lg:w-4/12">
+                <div class="md:w-6/12 lg:w-4/12 mt-10">
                     <img title="{{ sponsor.description }}" alt="{{ sponsor.description }}" src="{{ sponsor.logo | relative_url }}"
-                    class="shadow h-full rounded-sm"/
-                    style="max-height: 80px; filter: grayscale(50%); filter: brightness(90%);">
+                    class="shadow rounded-sm"/
+                    style="height: 80px; filter: grayscale(50%); filter: brightness(90%);">
                 </div>
 
                 {% endfor %}
