@@ -13,7 +13,7 @@ url: 'https://blissful-cray-a24188.netlify.com'
 markdown: kramdown
 plugins:
   - jekyll-postcss
-  #- jekyll-purgecss
+  - jekyll-purgecss
 css_dir: "assets/css"
 
 collections_dir: collections
