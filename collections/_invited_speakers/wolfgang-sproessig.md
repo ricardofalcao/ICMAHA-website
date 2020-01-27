@@ -1,7 +1,7 @@
 ---
 name: Wolfgang Sproessig
 thumbnail: /data/uploads/Sprossig2.jpg
-website: sproessig@math.tu-freiberg.de
+website: 'http://www.mathe.tu-freiberg.de/inst/amm1/Mitarbeiter/Sproessig/index.html'
 university: 'University of Freiberg, Germany'
 ---
 
