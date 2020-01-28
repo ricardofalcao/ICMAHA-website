@@ -17,10 +17,10 @@ fee_description: >-
   Accompanying person fee: **50 €**
 
 
-  <br/><br/>
+  <br/>
 
 
-  **The fees includes** coffee breaks, lunches, dinner (?????)
+  **The fee includes** coffee breaks, lunches, dinner (?????)
 payment_description: |-
   Please, transfer your conference fee into the following bank account:  
 
@@ -45,7 +45,7 @@ registration_description: >-
 registration_form_title: ICMAHA Registration Form
 registration_form_description: Please complete all the required fields in the form below.
 registration_form_abstract_description: >-
-  If you wish to give a short talk, enter the title and a short abstract
-  (formulas in LATEX code alowed)
+  If you wish to give a talk, please submit  the title of the talk and a short
+  abstract (formulas in LATEX code allowed).
 ---
 
