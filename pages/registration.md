@@ -6,10 +6,10 @@ fee_description: >-
   Dates](https://blissful-cray-a24188.netlify.com/#important_dates) <br/><br/>
 
 
-  Regular early registration fee: 20**0 €**
+  Regular early registration fee: 200 €
 
 
-  Later registration fee: 30**0 €**
+  Later registration fee: 300 €
 payment_description: Information about the payment will be available soon.
 registration_description: >-
   **Please check** [Important
