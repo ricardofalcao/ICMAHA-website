@@ -92,22 +92,20 @@ reach_description: >-
 
 
   There are direct trains to Aveiro railway station practically every hour.
-  Please check the [timetable](<* *
-  [https://www.cp.pt/passageiros/pt/consultar-horarios](<* *
-  https://www.cp.pt/passageiros/pt/consultar-horarios>)>). The train journey
-  takes 40 minutes by fast trains, "Alfa Pendular" and "Intercidades", with seat
-  reservation automatically included on each ticket, and one hour by local
-  "regional" or "suburbano" trains, with no seat reservation. A single ticket
-  may cost from 3,55 to 15 euros, depending on the type of train.
+  Please check the
+  [timetable](https://www.cp.pt/passageiros/pt/consultar-horarios). The train
+  journey takes 40 minutes by fast trains, "Alfa Pendular" and "Intercidades",
+  with seat reservation automatically included on each ticket, and one hour by
+  local "regional" or "suburbano" trains, with no seat reservation. A single
+  ticket may cost from 3,55 to 15 euros, depending on the type of train.
 
 
   **From Lisbon**
 
 
   The most practical way to reach Aveiro is to take a direct and fast train. 
-  Please check the train[ timetable](<* 
-  [https://www.cp.pt/passageiros/pt/consultar-horarios](<*
-  https://www.cp.pt/passageiros/pt/consultar-horarios>)>).
+  Please check the train
+  [timetable](https://www.cp.pt/passageiros/pt/consultar-horarios).
 
 
   *From the airport to the main railway station "Lisboa-Oriente"*
