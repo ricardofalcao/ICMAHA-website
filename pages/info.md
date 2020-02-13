@@ -154,7 +154,8 @@ reach_description: >-
   Aveiro), have special payment methods. See <http://www.portugaltolls.com/>
 
 
-  **From Lisbon**  \
+  **From Lisbon**  
+
 
   There are various car-hire agencies at the airport. From the airport, follow
   the signs for the A1 highway in the direction of Porto. Leave the highway at
