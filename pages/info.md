@@ -30,10 +30,10 @@ venue_description: >-
 
   ![](/data/uploads/resizer.png "Aveiro")
 reach_description: >-
-  **By road:**
+  #### **By road**
 
 
-  From the north 
+  **From the north** 
 
 
   Take the A1 motorway in the direction of Lisbon. Exit the A1 in the direction
@@ -53,7 +53,7 @@ reach_description: >-
   From the east, take the A25 motorway until “Aveiro”.
 
 
-  **By air:**
+  #### **By air**
 
 
   Aveiro city closest airport is Francisco Sá Carneiro International Airport in
@@ -63,7 +63,7 @@ reach_description: >-
   airports](<https://www.ana.pt/en/corporate/home>.).
 
 
-  From Porto
+  **From Porto**
 
 
   The train is the most practical means of making the journey to Aveiro. The
@@ -73,7 +73,7 @@ reach_description: >-
   train station is to use Metro.
 
 
-  From the Airport to the main train station “Porto-Campanhã”\
+  *From the Airport to the main train station “Porto-Campanhã”*\
 
   You can a taxi or the metro Violet (E) Line, which has a terminal at the
   airport, to the station "Trindade". From “Trindade” you have several options
@@ -84,7 +84,7 @@ reach_description: >-
   card "Andante Azul") and it takes about 50 minutes.
 
 
-  From the railway station “Porto-Campanhã” to Aveiro
+  *From the railway station “Porto-Campanhã” to Aveiro*
 
   There are direct trains to Aveiro railway station practically every hour.
   Please check the [timetable](<* *
@@ -96,7 +96,7 @@ reach_description: >-
   may cost from 3,55 to 15 euros, depending on the type of train.
 
 
-  From Lisbon
+  **From Lisbon**
 
 
   The most practical way to reach Aveiro is to take a direct and fast train. 
@@ -105,7 +105,7 @@ reach_description: >-
   https://www.cp.pt/passageiros/pt/consultar-horarios>)>).
 
 
-  From the airport to the main railway station "Lisboa-Oriente"
+  *From the airport to the main railway station "Lisboa-Oriente"*
 
   You can take a taxi or the metro Red Line to railway station. The taxi ride
   takes about 10 minutes and costs around 10€. The metro fare is 2 euros
@@ -114,17 +114,19 @@ reach_description: >-
   around 1€. 
 
 
-  From the railway station “Porto-Campanhã” to Aveiro  Given the distance, the
-  direct fast train services "Alfa Pendular" or "Intercidades" are recommended;
-  fares are about 20,90 - 27,10 euros, tickets automatically include a seat
-  reservation and train journey is around 2h - 2h30min.
+  *From the railway station “Porto-Campanhã” to Aveiro*  \
+
+  Given the distance, the direct fast train services "Alfa Pendular" or
+  "Intercidades" are recommended; fares are about 20,90 - 27,10 euros, tickets
+  automatically include a seat reservation and train journey is around 2h -
+  2h30min.
 
 
   Aveiro railway station is located in the city centre, about 30 minutes walking
   distance, or 5-minute taxi ride, to the conference venue.
 
 
-  **By car from the airports** 
+  #### **By car from the airports** 
 
 
   **From Porto** 
