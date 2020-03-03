@@ -1,5 +1,5 @@
 ---
-name: CIDMA
+name: 1-CIDMA
 logo: /data/uploads/CIDMA.jpg
 description: >-
   This conference is supported by The Center for Research and Development in
