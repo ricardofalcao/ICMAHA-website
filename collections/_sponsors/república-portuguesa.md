@@ -1,6 +1,6 @@
 ---
-name: República Portuguesa
+name: zRepública Portuguesa
 logo: /data/uploads/RP.png
-description: ZZ
+description: República Portuguesa
 ---
 
