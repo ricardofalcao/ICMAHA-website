@@ -1,5 +1,5 @@
 ---
-name: República Portuguesa
+name: 8-República Portuguesa
 logo: /data/uploads/RP.png
 description: República Portuguesa
 ---
