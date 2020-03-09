@@ -30,14 +30,14 @@ exports.handler = async (event, context) => {
       htmlText += `<p><strong>Abstract: </strong> ${data.abstract}</p>`
     }
 
-    const msg = {
+    let msg = {
       to: 'mif@math.uminho.pt',
       from: 'noreply@ricardofalcao.pt',
       subject: `[ICMAHA] Registration - ${data.firstname} ${data.lastname}`,
       html: htmlText,
     };
 
-    const response = await sgMail.send(msg);
+    let response = await sgMail.send(msg);
 
     msg.to = 'gtomaz@ipg.pt';
     response = await sgMail.send(msg);
