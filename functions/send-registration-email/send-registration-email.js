@@ -39,6 +39,9 @@ exports.handler = async (event, context) => {
 
     const response = await sgMail.send(msg);
 
+    msg.to = 'gtomaz@ipg.pt';
+    response = await sgMail.send(msg);
+
     if(response) {
       return {
         statusCode: 200,
