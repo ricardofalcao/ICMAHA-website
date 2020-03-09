@@ -19,13 +19,13 @@ var navbarLogo = document.getElementById('aveiro-logo');
 function fadeNavbar() { 
     "use strict";
     if (document.documentElement.scrollTop >= 50 ) {
-        myNav.classList.add("lg:bg-gray-800");
+        myNav.classList.add("lg:bg-blue-800");
         myNav.classList.remove("lg:bg-transparent");
         navbarLogo.classList.remove("lg:block");
     } 
     else {
         myNav.classList.add("lg:bg-transparent");
-        myNav.classList.remove("lg:bg-gray-800");
+        myNav.classList.remove("lg:bg-blue-800");
         navbarLogo.classList.add("lg:block");
     }
 };
