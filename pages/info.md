@@ -1,6 +1,6 @@
 ---
 layout: info
-title: Info
+title: Information
 permalink: /info/
 venue_description: >-
   The conference will take place at Santiago campus, University of Aveiro,
@@ -164,4 +164,3 @@ reach_description: >-
 accomodation_description: Available soon.
 dinner_description: Não vai ficar já visível.
 ---
-
