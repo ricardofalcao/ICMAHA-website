@@ -17,7 +17,6 @@ registration_description: >-
 registration_form_title: ICMAHA Registration Form
 registration_form_description: Please complete all the required fields in the form below.
 registration_form_abstract_description: >-
-  If you wish to give a talk, please submit  the title of the talk and a short
-  abstract (formulas in LATEX code allowed).
+  If you wish  to contribute to ICMAHA 2020 with a **talk or poster,** please
+  submit the following information (formulas in LATEX code allowed).
 ---
-
