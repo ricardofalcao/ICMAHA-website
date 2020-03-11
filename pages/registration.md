@@ -1,5 +1,6 @@
 ---
 layout: registration
+title: Registration
 permalink: /registration/
 fee_description: >-
   **Please check** [Important

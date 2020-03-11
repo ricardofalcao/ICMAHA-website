@@ -1,5 +1,6 @@
 ---
 layout: info
+title: Info
 permalink: /info/
 venue_description: >-
   The conference will take place at Santiago campus, University of Aveiro,

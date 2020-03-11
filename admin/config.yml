@@ -63,6 +63,7 @@ collections:
         file: "pages/about.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
+          - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/"}
           - {label: "Title", name: "about_title", widget: "string"}
           - {label: "About Description", name: "about_description", widget: "markdown"}
@@ -72,6 +73,7 @@ collections:
         file: "pages/info.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "info"}
+          - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/info/"}
           - {label: "Venue Description", name: "venue_description", widget: "markdown"}
           - {label: "Reach Description", name: "reach_description", widget: "markdown"}
@@ -82,6 +84,7 @@ collections:
         file: "pages/registration.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "registration"}
+          - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/registration/"}
           - {label: "Fee Description", name: "fee_description", widget: "markdown"}
           - {label: "Payment Description", name: "payment_description", widget: "markdown"}
@@ -94,5 +97,6 @@ collections:
         file: "pages/program.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "program"}
+          - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/program/"}
           - {label: "Program Description", name: "program_description", widget: "markdown"}
