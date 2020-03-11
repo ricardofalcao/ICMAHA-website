@@ -12,14 +12,15 @@ exports.handler = async (event, context) => {
     }
 
     const data = JSON.parse(event.body);
-    if (!data.firstname || !data.lastname || !data.email || !data.affiliation) {
-      return { statusCode: 422, body: 'Name, email and affiliation are required.' }
+    if (!data.firstname || !data.lastname || !data.email || !data.affiliation || !data.type) {
+      return { statusCode: 422, body: 'Name, email, affiliation and type are required.' }
     }
 
     let htmlText = `
           <p><strong>Name:</strong> ${data.firstname} ${data.lastname}</p>
           <p><strong>Email:</strong> ${data.email}</p>
           <p><strong>Affiliation:</strong> ${data.affiliation}</p>
+          <p><strong>Type:</strong> ${data.type}</p>
     `;
 
     if(data.title) {
