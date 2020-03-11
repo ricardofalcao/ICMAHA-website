@@ -49,6 +49,12 @@ if(myForm) {
         for (var i = 0; i < myForm.length; ++i) {
             var input = myForm[i];
             input.setAttribute("disabled", "");
+
+            if(input.type == "checkbox" || input.type == "radio") {
+                if(!input.checked) {
+                    continue;
+                }
+            }
     
             if (input.name) {
                 data[input.name] = input.value;
