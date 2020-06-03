@@ -16,7 +16,7 @@ about_description: >-
   ### **Announcement**
 
 
-  **Due to the current uncertainty caused by the Covid-19, we regret to inform that the conference  has been POSTPONED to a date of next year (not yet determined). We apologize for any inconvenience this may cause. Details will be posted as they become available.**
+  **Due to the current uncertainty caused by the Covid-19, we regret to inform that the conference  has been POSTPONED to a date of next year (not yet determined). We apologize for any inconvenience this may cause. Details will be posted here as they become available.**
 
 
   We hope to meet you next year in Aveiro!
